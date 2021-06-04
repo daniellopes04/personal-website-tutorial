@@ -220,5 +220,7 @@ img {
 }
 
 /* Show menu */
-
+.show-menu {
+    bottom: 0;    
+}
 
