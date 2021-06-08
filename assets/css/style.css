@@ -334,6 +334,15 @@ img {
     transition: var(--transition-time);
 }
 
+.button-white {
+    background-color: #FFF;
+    color: var(--first-color)
+}
+
+.button-white:hover{
+    background-color: #FFF;
+}
+
 .button-flex {
     display: inline-flex;
     align-items: center;
@@ -698,6 +707,7 @@ img {
     transform: translateX(.25rem);
 }
 
+/* Swiper */
 .swiper-button-prev::after, .swiper-button-next::after {
     content: '';
 }
@@ -727,3 +737,29 @@ img {
     outline: none;
 }
 
+.project {
+    text-align: center;
+}
+
+.project-bg {
+    background-color: var(--first-color);
+    padding-top: 3rem;
+}
+
+.project-title {
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--margin-bottom-0-75);
+}
+
+.project-description {
+    margin-bottom: var(--margin-bottom-1-5);
+}
+
+.project-title, .project-description {
+    color: #FFF;
+}
+
+.project-img {
+    width: 232px;
+    justify-self: center;
+}
