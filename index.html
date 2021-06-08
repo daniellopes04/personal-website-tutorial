@@ -7,10 +7,14 @@
         <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16" />
 
-        <link rel="stylesheet" href="assets/css/style.css">
-
         <!-- Icons -->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
 
         <title>Daniel de Sousa</title>
     </head>
@@ -76,11 +80,11 @@
                 <div class="home-container container grid">
                     <div class="home-content grid">
                         <div class="home-social">
-                            <a href="https://www.linkedin.com" target="_blank" class="home-social-icon">
+                            <a href="https://www.linkedin.com/in/daniellopes04" target="_blank" class="home-social-icon">
                                 <i class="uil uil-linkedin-alt"></i>
                             </a>
 
-                            <a href="https://www.github.com" target="_blank" class="home-social-icon">
+                            <a href="https://github.com/daniellopes04" target="_blank" class="home-social-icon">
                                 <i class="uil uil-github-alt"></i>
                             </a>
                         </div>
@@ -574,13 +578,76 @@
             </section>   
 
             <!-- Portfolio -->
+            <section id="portfolio" class="portfolio section">
+                <h2 class="section-title">Portfolio</h2>
+                <span class="section-subtitle">Most recent work</span>
+                
+                <div class="portfolio-container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- Portfolio 1 -->
+                        <div class="portfolio-content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio-img">
+
+                            <div class="portfolio-data">
+                                <h3 class="portfolio-title">Luis&Festa</h3>
+                                <p class="portfolio-description">Responsive website, adaptable to all devices.</p>
+                                <a href="http://luisefesta.com.br/" class="button button-flex button-small portfolio-button">
+                                    Visit
+                                    <i class="uil uil-arrow-right button-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio 2 -->
+                        <div class="portfolio-content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio-img">
+
+                            <div class="portfolio-data">
+                                <h3 class="portfolio-title">Brand Design</h3>
+                                <p class="portfolio-description">Responsive website, adaptable to all devices.</p>
+                                <a href="#" class="button button-flex button-small portfolio-button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio 3 -->
+                        <div class="portfolio-content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio-img">
+
+                            <div class="portfolio-data">
+                                <h3 class="portfolio-title">Online Store</h3>
+                                <p class="portfolio-description">Responsive website, adaptable to all devices.</p>
+                                <a href="#" class="button button-flex button-small portfolio-button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Swiper arrows and pagination-->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+
             <!-- Contact -->
             <!-- Unicons by <a href="https://iconscout.com/">Iconscout</a> -->
         </main>
 
-        <script src="assets/js/main.js"></script>
-
         <!-- Swiper JS -->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
