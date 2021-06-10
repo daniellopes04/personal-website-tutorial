@@ -231,6 +231,9 @@ textarea {
 }
 
 /* Active link */
+.active-link {
+    color: var(--first-color);
+}
 
 /* Change header background */
 
