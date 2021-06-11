@@ -1,6 +1,4 @@
 # daniellopes04.github.io
 
 Meu site pessoal.
-
-Ferramentas utilizadas:
-- Angular
+Feito com HTML, CSS e Javascript.
