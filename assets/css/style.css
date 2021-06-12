@@ -1067,7 +1067,7 @@ textarea {
 
     .about-container, .skills-container, 
     .portfolio-content, .project-container,
-    .contact-container, .footer-container {
+    .footer-container {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -1286,10 +1286,6 @@ textarea {
 
     .swiper-container-horizontal > .swiper-pagination-bullets {
         bottom: -4.5rem;
-    }
-
-    .contact-form {
-        width: 460px;
     }
 
     .contact-inputs {
