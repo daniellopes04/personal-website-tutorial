@@ -1,4 +1,2 @@
-# daniellopes04.github.io
-
-Meu site pessoal.
+# Tutorial site pessoal.
 Feito com HTML, CSS e Javascript.
